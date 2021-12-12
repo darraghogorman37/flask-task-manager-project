@@ -38,7 +38,7 @@
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-blue-text text-darken-4 prefix"></i>
                 <textarea id="task_description" name="task_description" value = "{{task.task_description}}" minlength = "5" maxlength = "200" class="materialize-textarea validate" requried>
-                    {{- task.task_description -}}</textarea>
+                    {{-task.task_description-}} </textarea>
                 <label for="task_description">Task Description</label>
             </div>
         </div>
@@ -46,7 +46,7 @@
         <!--Datepicker-->
         <div class="input-field col s12">
             <i class="fas fa-calendar-alt prefix light-blue-text text-darken-4"></i>
-            <input id="due-date" name="due-date" value = "{{task.due_date}}" type="text" class="datepicker validate" required>
+            <input id="due-date" name="due_date" value = "{{task.due_date}}" type="text" class="datepicker validate" required>
             <label for="due-date">Due date</label>
         </div>
 
